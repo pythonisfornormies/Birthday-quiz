@@ -103,4 +103,8 @@ month = input("Hi "+name+", what was the name of the month you were born in? ")
 year = input("And what year were you born in, "+name+"? ")
 day = input("And the day? ")
 
+if month == [December, January, February]
+    resultm = winter
+if month == [March, April, May]
+    resultm = 
 print(name+", you are a "+season,"baby of the "+age+".")
