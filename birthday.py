@@ -103,13 +103,13 @@ month = input("Hi "+name+", what was the name of the month you were born in? ")
 year = input("And what year were you born in, "+name+"? ")
 day = input("And the day? ")
 
-if month == [December, January, February]
-    resultm = winter
-if month == [March, April, May]
-    resultm = spring
-if month == [June, July, August]
-    resultm = summer
-if month == [September, October, November]
-    resultm = fall
+if month in ["December", "January", "February"]:
+    resultm = "winter"
+elif month in ["March", "April", "May"]:
+    resultm = "spring"
+elif month in ["June", "July", "August"]:
+    resultm = "summer"
+elif month in ["September", "October", "November"]:
+    resultm = "fall"
 
 print(name+", you are a "+resultm+" baby of the "+age+".")
