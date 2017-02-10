@@ -106,5 +106,10 @@ day = input("And the day? ")
 if month == [December, January, February]
     resultm = winter
 if month == [March, April, May]
-    resultm = 
-print(name+", you are a "+season,"baby of the "+age+".")
+    resultm = spring
+if month == [June, July, August]
+    resultm = summer
+if month == [September, October, November]
+    resultm = fall
+
+print(name+", you are a "+resultm+" baby of the "+age+".")
