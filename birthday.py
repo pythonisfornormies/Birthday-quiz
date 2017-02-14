@@ -112,4 +112,18 @@ elif month in ["June", "July", "August"]:
 elif month in ["September", "October", "November"]:
     resultm = "fall"
 
-print(name+", you are a "+resultm+" baby of the "+age+".")
+if int(year) < 1980: 
+    resulta = "stone age"
+elif int(year) > 1979 and int(year) < 1990: 
+    resulta = "eighties"
+elif int(year) > 1989 and int(year) < 2000:
+    resulta = "nineties"
+elif int(year) > 1999:
+    resulta = "two thousands"
+
+print(name+", you are a "+resultm+" baby of the "+resulta+".")
+
+if todaydate == int(day) and month == month1:
+    print("Happy birthday! ")
+if int(day) == 31 and month == "October":
+    print("You were born on Halloween! ")
