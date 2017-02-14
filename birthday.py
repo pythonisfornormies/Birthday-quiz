@@ -121,9 +121,9 @@ elif int(year) > 1989 and int(year) < 2000:
 elif int(year) > 1999:
     resulta = "two thousands"
 
-print(name+", you are a "+resultm+" baby of the "+resulta+".")
-
 if todaydate == int(day) and month == month1:
     print("Happy birthday! ")
 if int(day) == 31 and month == "October":
     print("You were born on Halloween! ")
+else:
+    print(name+", you are a "+resultm+" baby of the "+resulta+".")
